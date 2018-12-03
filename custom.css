@@ -1,0 +1,122 @@
+.container-fluid {
+ background-image: url("persian.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:52vh;
+    width:100vw;
+
+}
+
+
+
+h4 {
+    font-family:lora;
+    font-size:1.25em;
+}
+
+h3 {
+    font-size:1.4em;
+}
+
+h2 {
+    font-size:1.75em;
+}
+
+.firstheader {
+    padding-top:2%;
+    display: flex;
+    align-items: center;
+    padding-left:1%;
+           z-index:1;
+}
+
+
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 52vh;
+  z-index: 0;
+  background-color: rgba(75,156,211,0.8);
+}
+
+
+.logo {
+    max-height:150px;
+    z-index:1;
+
+}
+
+.middle {
+    padding:3%;
+    min-height:40vh;
+    color:black;
+
+
+}
+.feature {
+    width:40%;
+}
+
+.featureheading {
+    font-weight:600;
+}
+.media {
+    padding:10px;
+}
+
+.media-body {
+    padding-left:5%;
+}
+p{
+    font-family: montserrat;
+}
+body{
+    font-family: 'Lora';font-size: 20px;
+    color: white;
+}
+
+
+hr {
+    width:48%;
+    height:0.1%;
+    background-color: white;
+    position:absolute;
+
+}
+
+
+.navbar {
+    padding:2% 0 2%;
+    font-weight:600;
+
+}
+.navbar a {
+    color: white;
+
+}
+
+.footer {
+   width: 100%;
+   background-color: gray;
+   color: white;
+    padding-top:1%;
+    height:8vh;
+
+
+
+}
+.center {
+    text-align:center;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.fab {
+    margin-left:30px;
+}
